@@ -186,6 +186,7 @@ body{
     }
 .courses{
     width: fit-content;
+    padding: 0px;
 }
     body{
         background-color: rgba(107, 6, 6, 0.24);
@@ -194,6 +195,11 @@ body{
         height:40px;
         width: 40px;
           }
+
+          .coursesDiv{
+          width: auto;
+            margin: 10px;
+        }
 }
 /* mobile divices */
 @media (max-width:600px) {
@@ -241,15 +247,17 @@ width: 40px;
     }
     
     
-    .courses{
-       padding: 0px;
+    .course-item{
+       padding: 10px;
        display: grid;
        grid-template-columns: repeat(1 , 1fr);
        background-color: #562EFF;
+       border-radius: 10px;
     }
     .coursesDiv{
-        margin: 0px;
+        margin: auto;
         padding: 0%;
+        width: fit-content;
     }
     body{
         background-color: rgb(230, 11, 200);
@@ -257,6 +265,7 @@ width: 40px;
 .navImage{
 height:40px;
 width: 40px;
+margin-top: -400px;
   }
 }
 
