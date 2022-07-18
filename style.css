@@ -216,6 +216,7 @@ body{
     }
     .coursesDiv{
         margin: 50px;
+        padding: 20px;
     }
     body{
         background-color: rgb(230, 11, 200);
@@ -248,6 +249,7 @@ width: 40px;
     }
     .coursesDiv{
         margin: 0px;
+        padding: 0%;
     }
     body{
         background-color: rgb(230, 11, 200);
